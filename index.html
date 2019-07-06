@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GIPHY API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 id="title">Discover the World's Most Endangered Species! </h1>
+        <!-- <p id="title-description">Endangered species</p> -->    
+        <p><a class="btn btn-primary btn-lg" id="header-button" href="#" role="button"> The world is being threatened to extinction due to ongoing climate change. </a></p>
+    </div>
+
+    <p class="introduction">Click to view some images of the World's Top 10 Most Endangered Species. Search and add to the list to view other species. </p>
+
+    <div class="container">
+        <div id="species-buttons"></div>
+
+        <br />
+
+        <div class="row gif-row">
+            <div class="col-md-10">
+                <div id="gifs"></div>
+            </div>
+            <div class="col-md-2">
+                    <form id="species-form">
+                            <label for="species-input">Add a species</label>
+                            <input type="text" id="species-input"></br>
+                            
+                            <!-- Button triggers new gifs to be added -->
+                            <input id="add-items" type="submit" value="Submit">
+                          </form>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="assets/javascript/gif.js"></script>
+    
+</body>
+</html>

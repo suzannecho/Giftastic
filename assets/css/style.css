@@ -1,0 +1,147 @@
+body {
+	background: url(../images/Planet-Earth.jpg);
+	background-position: 0px 400px;
+    background-size: 100%;
+   
+}
+
+.container {
+	width: 80%;
+	position: absolute;
+	top: 580px;
+	left: 10%;
+	padding-bottom: 90px;
+}
+
+.jumbotron {
+    background: url(../images/Endangered-Species.png) center center no-repeat;
+    background-position: right 50px, bottom 50px;
+    height: 400px;
+}
+
+.individual-gifs {
+	float: left;
+	margin: 10px;
+}
+
+.introduction { 
+    display: block ;
+    background: #0875b4;
+    border-width:4px;
+    border-color: #494a94;
+	color: white;
+    font-family: "Times New Roman", serif;
+	font-weight: 300;
+	font-size: 21px;
+	letter-spacing: 1.5px;
+	text-align: center;
+    width: 100%;
+    height: 60px;
+	position: absolute;
+	top: 450px;
+    padding: 17px;
+}
+
+.input-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: skyblue;
+    font-family: 'Times New Roman', serif;
+}
+.species-btn {
+	background: indigo;
+    border-radius: 4px;
+    border-color: white;
+	padding: 10px 15px 10px 15px;
+	margin: 5px;
+	color: white;
+}
+
+.species-btn:hover {
+	background: #24bfee;
+}
+
+.rating-text {
+	font-size: 20px;
+	color: aqua;
+	font-weight: bold;
+}
+
+.species {
+	position: relative;
+	left: 0%;
+}
+
+#species-buttons {
+	width: 100%;
+    font-family: 'Times New Roman', serif;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+#add-items {
+	background: purple;
+	border: none;
+	color: white;
+	margin-top: 14px;
+	padding: 10px;
+	font-size: 18px;
+    font-family: 'Times New Roman', serif;
+	font-weight: 700;
+	font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+#add-items:hover {
+	background: rgb(42, 156, 61);
+}
+
+#sticky {
+   	position: fixed;    /*Here's what sticks it*/
+	bottom:0;          	/*to the bottom of the window*/
+	left:0;            /*and to the left of the window.*/
+	width: 100%;
+   	height: 40px;   /* Height of the footer */
+   	padding-top: auto;
+   	background:  #eeccff;
+   	text-align: center;
+   	color: white;
+    font-family: 'Times New Roman', serif;
+    font-weight: 300;
+	font-size: 13px;
+}
+
+.rating {
+    font-family: 'Times New Roman', serif;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/* JUMBOTRON ELEMENTS */
+
+#title {
+    color: White;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-top: 7%;
+    font-family: 'Times New Roman', serif;
+}
+
+
+#header-button {
+	text-align: center;
+    font-family: 'Times New Roman', serif;
+	font-size: 16px;
+    letter-spacing: 1.5px;
+    border-radius: 6px;
+    border-color: black;
+    position: relative;
+    left: 280px;
+	background: slateblue;
+}
+
+#header-button:hover {
+	background: #375D75;
+}
